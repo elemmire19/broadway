@@ -4,7 +4,7 @@ body {
 }
 header {
   background-image: url("../images/the-flatiron-building.png");
-  background-position: center;
+  /*background-position: center; This centers the background image*/
 }
 footer {
   text-align: left;
@@ -34,10 +34,13 @@ p {
   font-weight: bold;
   color: white;
   background-image: url("../images/the-flatiron-building.png");
-  background-position: center;
+  /*background-position: center;*/
 }
 .footer {
   color: white;
   background-color: dimgray;
   font-size: 11px;
 }
+/*.footer a {
+  font-size: 11px;
+} This makes the font of the links in the footer 11px*/
