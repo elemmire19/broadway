@@ -4,7 +4,8 @@ body {
 }
 header {
   background-image: url("../images/the-flatiron-building.png");
-  /*background-position: center; This centers the background image*/
+  background-repeat: no-repeat;
+  background-position: center;
 }
 footer {
   text-align: left;
@@ -34,7 +35,8 @@ p {
   font-weight: bold;
   color: white;
   background-image: url("../images/the-flatiron-building.png");
-  /*background-position: center;*/
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .footer {
   color: white;
